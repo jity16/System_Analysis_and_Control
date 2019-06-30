@@ -1,0 +1,49 @@
+卷 OS 的文件夹 PATH 列表
+卷序列号为 8AD1-3414
+C:.
+│  list.txt
+│  README.md
+│  
+├─figs
+│      g1gen.png
+│      g1nei.png
+│      g1_0.01_bode.png
+│      g1_0.01_response.png
+│      g1_0.1_bode.png
+│      g1_0.1_response.png
+│      g1_1.00_bode.png
+│      g1_1.00_response.png
+│      g1_10.00_bode.png
+│      g1_10.00_response.png
+│      g1_100.00_response.png
+│      g1_100_bode.png
+│      g1_origin_step.png
+│      g2_0.01_bode.png
+│      g2_0.01_step.png
+│      g2_0.1_bode.png
+│      g2_0.1_step.png
+│      g2_1.00_bode.png
+│      g2_1.00_step.png
+│      g2_10.00_bode.png
+│      g2_100.00_bode.png
+│      g2_100_step.png
+│      g2_10_step.png
+│      g2_nyquist.png
+│      g2_origin_bode.png
+│      g2_root.png
+│      
+├─report
+│      report.md
+│      
+└─src
+        g1_bode.m
+        G1_nyquist.m
+        g1_origin_step.m
+        G1_rootLocus.m
+        g1_step.m
+        G2_Bode.m
+        G2_nyquist.m
+        g2_origin_bode.m
+        G2_rootLocus.m
+        g2_step.m
+        
