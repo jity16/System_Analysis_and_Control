@@ -1,8 +1,8 @@
 %G1,a= 1,根轨迹
 k = 1; %开环增益
 a = 1; 
-num = [1/a 1];
-den = [1 1 1];
+num = [1/a 0];
+den = [1 1 2];
 [p,z] = pzmap(num,den);
 G = zpk(z,p,k);
 rlocus(G); 
