@@ -1,5 +1,6 @@
 %G2(s)
 num = [1,1,1,0];
 den = [1,1,2];
-title('系统G1(s)=1/(s/p+1)(s^2+s+1)根轨迹图');
-rlocus(num,den)
+G = tf(num,den);
+rlocus(G);
+title('系统G2(s)=1/(s/p+1)(s^2+s+1)根轨迹图');

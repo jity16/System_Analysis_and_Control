@@ -1,0 +1,12 @@
+%G2
+%p = 0.01,0.1,1,10,100
+p = 0.01;
+num=[1];
+den=[1/p,1/p+1,1/p+1,2];
+G = tf(num,den);
+bode(G);
+grid on
+xlabel('t');
+ylabel('c(t)');
+title(sprintf('系统响应的Bode图，p = %.2f',p));
+axis([
